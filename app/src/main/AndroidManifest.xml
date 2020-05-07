@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.koreantv.tvonline">
+    package="com.iseetv.tvonline">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
-        android:name="com.koreantv.tvonline.MyApplication"
+        android:name="com.iseetv.tvonline.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -23,7 +23,7 @@
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-3940256099942544~3347511713"/>
         <activity
-            android:name="com.koreantv.tvonline.SplashActivity"
+            android:name="com.iseetv.tvonline.SplashActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,27 +32,27 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.koreantv.tvonline.MainActivity"
+            android:name="com.iseetv.tvonline.MainActivity"
             android:screenOrientation="fullSensor"
             android:windowSoftInputMode="adjustPan" />
 
         <activity
-            android:name="com.koreantv.tvonline.ChannelDetailsActivity"
+            android:name="com.iseetv.tvonline.ChannelDetailsActivity"
             android:screenOrientation="fullSensor"
             android:windowSoftInputMode="adjustPan" />
 
         <activity
-            android:name="com.koreantv.tvonline.SettingActivity"
+            android:name="com.iseetv.tvonline.SettingActivity"
             android:screenOrientation="fullSensor"
             android:windowSoftInputMode="adjustPan" />
 
         <activity
-            android:name="com.koreantv.tvonline.VideoPlayActivity"
+            android:name="com.iseetv.tvonline.VideoPlayActivity"
             android:configChanges="orientation|screenSize"
             android:screenOrientation="sensor" />
 
         <activity
-            android:name="com.koreantv.tvonline.TVPlayActivity"
+            android:name="com.iseetv.tvonline.TVPlayActivity"
             android:label="@string/app_name"
             android:screenOrientation="fullSensor"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
