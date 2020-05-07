@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "224233080145",
+    "firebase_url": "https://molaapp-e8ffe.firebaseio.com",
+    "project_id": "molaapp-e8ffe",
+    "storage_bucket": "molaapp-e8ffe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224233080145:android:aabedaf332f734fff57f70",
+        "android_client_info": {
+          "package_name": "com.molaapp.iptv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224233080145-a8ojpmhq83ug4kna75b773ua19pi6ogt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKadY30hf4uQoGozkHLS9Srm9MD0kzJn8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224233080145-a8ojpmhq83ug4kna75b773ua19pi6ogt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
